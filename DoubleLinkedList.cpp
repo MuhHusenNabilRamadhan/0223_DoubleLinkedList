@@ -158,3 +158,8 @@ void deleteNode()
         << rollNo << "deleted\x1b[0m" << endl;
 }
 
+// method untuk mengecek apakah list kosong
+bool listEmpty()
+{
+    return (START == NULL);
+}

@@ -63,7 +63,7 @@ void addNode()
         //loopping selama current != null dan noMhs dari current lebih kecil dari
         while (current != NULL && current-> noMhs <newNode->noMhs)
         {
-                
+            previous = current;   // step 1.d : move the previous to the current
         }
     }
 }

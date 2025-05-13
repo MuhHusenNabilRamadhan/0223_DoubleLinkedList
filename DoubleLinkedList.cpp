@@ -11,5 +11,7 @@ struct Node
     //deklarasi pointer next da pref untuk penunjukan data sebelum dan sesudah
     Node *next;
     Node *prev;
-
 };
+
+//deklarasi pointer START dan pemberian nilai
+Node *START = NULL;

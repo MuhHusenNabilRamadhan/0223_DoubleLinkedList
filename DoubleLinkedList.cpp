@@ -74,7 +74,7 @@ void addNode()
         //kondisi jka current tidak sama dengan null
         if (current != NULL)
         {
-            
+            current -> prev = newNode; //step 6: make the previous field of the
         }
 
     }

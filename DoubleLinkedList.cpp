@@ -103,3 +103,9 @@ bool search (int rollNo, Node **previous, Node **current)
     }
     return (*current != NULL);
 }
+
+//pembuatan prosedur delete untuk menghapus data
+void deleteNode()
+{
+    
+}

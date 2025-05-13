@@ -90,3 +90,9 @@ void addNode()
 
     }
 }
+
+//pembuatan function search untuk mencari data
+bool search (int rollNo, Node **previous, Node **current)
+{
+    
+}

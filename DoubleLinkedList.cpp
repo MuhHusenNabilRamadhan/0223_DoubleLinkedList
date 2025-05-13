@@ -6,6 +6,10 @@ struct Node
 {
     //deklarasi noMhs dan nama untuk menampung data
     int noMhs;
-    string name
+    string name;
+
+    //deklarasi pointer next da pref untuk penunjukan data sebelum dan sesudah
+    Node *next;
+    Node *prev;
 
 };
